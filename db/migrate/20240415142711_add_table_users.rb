@@ -4,7 +4,7 @@ class AddTableUsers < ActiveRecord::Migration[7.1]
       t.string :name, null: false, default: ''
       t.string :email, null: false, default: ''
       t.string :password, null: false
-      
+
       t.timestamps
     end
   end
